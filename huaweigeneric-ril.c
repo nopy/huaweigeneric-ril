@@ -59,6 +59,10 @@
 #define WORKAROUND_FAKE_CGEV 1
 #endif
 
+#define LOGD ALOGD
+#define LOGI ALOGI
+#define LOGE ALOGE
+
 typedef enum {
     SIM_ABSENT = 0,
     SIM_NOT_READY = 1,
